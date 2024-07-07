@@ -1,0 +1,235 @@
+/* fonts  */
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.literata-uniquifier {
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rem-uniquifier {
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carter-one-regular {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* akhir fonts  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg {
+    background-image: url(img/bg-tadika6.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    background-position: start bottom;
+    overflow-x: hidden;
+}
+
+.bg .row .text {
+    padding-top: 30vh;
+    padding-left: 5vw;
+}
+
+.bg .row .text .judul h1 {
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    /* text-shadow: 2px 2px 50px rgb(50, 245, 255); */
+    text-shadow: 2px 2px 50px rgb(20, 20, 20);
+    font-size: 70px;
+}
+
+.bg .row .text .judul h3 {
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    /* text-shadow: 2px 2px 50px rgb(50, 245, 255); */
+    text-shadow: 2px 2px 50px rgb(20, 20, 20);
+    font-size: 52px;
+}
+
+.bg .row .text .deksripsi p {
+    color: white;
+    font-family: "REM", sans-serif;
+    text-shadow: 2px 2px 5px rgb(20, 20, 20);
+    /* text-shadow: 2px 2px 50px rgb(50, 245, 255); */
+    font-size: 15px;
+}
+
+.sosial {
+    margin-top: 10px;
+}
+
+.sosial a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.sosial a:hover svg {
+    transform: translateY(-10px);
+    transition: ease 0.5s;
+}
+
+.bg .row .login {
+    margin-top: 14vh;
+}
+
+.bg .row .login .form h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Poetsen One", sans-serif;
+    text-shadow: 2px 2px 30px rgb(20, 20, 20);
+    /* text-shadow: 2px 2px 5px rgb(50, 245, 255); */
+    font-size: 50px;
+    text-align: center;
+}
+
+.bg .row .login .form .inputUsername {
+    margin-top: 30px;
+}
+
+.bg .row .login .form .inputPassword {
+    margin-top: 36px;
+}
+
+.bg .row .login .form .registrasi {
+    margin-top: 9px;
+}
+
+.bg .row .login .form .registrasi p,
+.bg .row .login .form .registrasi p a {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bg .row .login .form .submit {
+    margin-top: 23px;
+}
+
+.bg .row .login .form .inputUsername .input-group,
+.bg .row .login .form .inputPassword .input-group {
+    border-bottom: 1.5px solid #fff;
+}
+
+.bg .row .login .form .inputUsername .input-group .form-control,
+.bg .row .login .form .inputPassword .input-group .form-control {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 0px;
+}
+
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+.bg .row .login .form .inputUsername .input-group .input-group-text,
+.bg .row .login .form .inputPassword .input-group .input-group-text {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.bg .row .login .form .inputUsername .label label,
+.bg .row .login .form .inputPassword .label label {
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgb(20, 20, 20);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.bg .row .login .form .inputUsername .input-group .form-control:focus,
+.bg .row .login .form .inputPassword .input-group .form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.bg .row .login .form .inputPassword .input-group .input-group-text svg.muncul {
+    fill: #7cf99b !important;
+}
+
+
+/* responsive  */
+
+@media (max-width: 992px) {
+    .bg .row .text {
+        margin: auto;
+        padding-top: 10vh;
+        padding-left: 5vw;
+    }
+    .bg .row .text .judul h1 {
+        font-size: 80px;
+    }
+    .bg .row .text .judul h3 {
+        font-size: 60px;
+    }
+    .bg .row .text .deksripsi p {
+        font-size: 16px;
+    }
+    .sosial a svg {
+        width: 26px;
+        height: 26px;
+    }
+    .bg .row .login {
+        width: 70%;
+        margin: auto;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .bg .row .text {
+        margin: auto;
+        padding-top: 10vh;
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+    .bg .row .text .judul h1 {
+        font-size: 50px;
+    }
+    .bg .row .text .judul h3 {
+        font-size: 39px;
+    }
+    .bg .row .text .deksripsi p {
+        font-size: 14px;
+    }
+    .sosial a svg {
+        width: 24px;
+        height: 24px;
+    }
+    .bg .row .login {
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+}

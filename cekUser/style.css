@@ -1,0 +1,110 @@
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.literata-uniquifier {
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rem-uniquifier {
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carter-one-regular {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    min-width: 100vw;
+    min-height: 100vh;
+    /* background-image: url(../img/bg-7.png); */
+}
+
+.head {
+    margin-top: 3vh;
+}
+
+.head h1 {
+    font-family: "Carter One", system-ui;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(27, 27, 27);
+}
+
+.cari {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cari form input {
+    padding: 8px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1.5px solid rgb(57, 57, 57);
+}
+
+.cari form button {
+    width: 100px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 10px;
+    background-color: rgb(14, 151, 87);
+    color: aliceblue;
+    cursor: pointer;
+    border: 0px solid rgb(57, 57, 57);
+    font-weight: 500;
+}
+
+.cari form button:hover {
+    border: 1.5px solid rgb(14, 151, 87);
+    background-color: transparent;
+    color: rgb(14, 151, 87);
+}
+
+.cari form input:focus {
+    outline: none;
+}
+
+.tableS {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.tableS table {
+    margin: auto;
+}
+
+.tableS table tr th {
+    background-color: bisque;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.tableS table tr td {
+    padding: 25px;
+}
+
+@media (max-width: 992px) {
+    body {
+        overflow-x: scroll;
+    }
+}

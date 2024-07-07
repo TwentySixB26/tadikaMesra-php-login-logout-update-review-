@@ -1,0 +1,122 @@
+/* fonts  */
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.literata-uniquifier {
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rem-uniquifier {
+    font-family: "REM", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.carter-one-regular {
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* akhir fonts  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    min-height: 100vh;
+    /* background-image: url(../img/bg-7.png); */
+}
+
+.head {
+    margin-top: 3vh;
+}
+
+.head h1 {
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    font-size: 46px;
+}
+
+.isi {
+    margin-top: 50px;
+}
+
+.isi .data label,
+.isi .data span,
+.isi .data div {
+    font-family: "Literata", serif;
+    font-size: 16px;
+}
+
+.isi .data input {
+    margin-bottom: 28px;
+}
+
+.isi .data input:focus,
+.isi .data select:focus {
+    border: 1px solid black;
+    outline: none;
+    box-shadow: none;
+}
+
+.isi .data input,
+.isi .data select {
+    border: 1px solid rgb(130, 130, 130);
+    outline: none;
+    box-shadow: none;
+}
+
+.isi .data select {
+    margin-bottom: 10px;
+}
+
+.isi .img {
+    text-align: right;
+}
+
+
+/* responsive  */
+
+@media (max-width: 992px) {
+    .isi .img {
+        text-align: center;
+        margin-top: 10vh;
+    }
+    .isi .data select {
+        font-size: 17px;
+    }
+    .isi .data select option {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .isi {
+        margin-top: 40px;
+    }
+    .isi .img svg {
+        width: 291.56264px;
+        height: 312.44842px;
+    }
+    .isi .data select {
+        font-size: 17px;
+    }
+    .isi .data select option {
+        font-size: 12px;
+    }
+}
